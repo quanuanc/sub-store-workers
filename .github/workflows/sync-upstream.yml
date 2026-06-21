@@ -176,6 +176,7 @@ jobs:
           crons = ["55 15 * * *"]
 
           [vars]
+          SCRIPT_ENGINE = "quickjs"
           SUB_STORE_BACKEND_CUSTOM_NAME = "Workers"
           SUB_STORE_BACKEND_CUSTOM_ICON = "https://cdn.jsdelivr.net/gh/Yu9191/sub-store-workers@main/png/cloudflare.png"
           TOML
